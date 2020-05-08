@@ -1,0 +1,327 @@
+#header{
+  
+    background-color: #316DC3;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    
+}
+#header>a{
+    text-decoration: none;
+}
+#header>p{
+    margin-top: 15px;
+}
+input{
+
+    padding: 5px 5px;
+    color: green;
+    border:1px solid green;
+    font-size: 13px;
+
+}
+.button{
+margin-top: 10px;
+cursor: pointer;
+}
+
+#sub-head{
+ display: inline-flex;
+ justify-content: space-around;
+ width: 100%;
+ flex-wrap: wrap;
+ margin-top: 10px;
+}
+ul>li{
+    list-style-type: none;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  text-align: right;
+   margin-top: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;   
+}
+ul>li a:hover{
+    background-color: #316DC3;
+    color:white;
+    border-radius: 30px;
+}
+
+
+.active{
+    background-color: #316DC3;
+    color:white;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.active1:hover{
+    background-color: #316DC3;
+    color:white;
+    padding: 8px 10px;
+    border-radius: 30px;
+}
+.image{
+    margin-left: 60px;
+}
+.gap{
+    width: 350px;
+}
+#slider{
+    width: 100%;
+    background-color: white;
+    border: none;
+   background-size: cover;
+   
+}
+
+.news p{
+    
+ 
+    width: 70%;
+    background-color: #316DC3;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    height: 25px;
+    margin-top: 20px;
+   
+   
+}
+.line{
+ border-bottom: 2px solid green;
+ width:50px; 
+ 
+}
+#intro {
+    display: block;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-size: 2rem;
+
+}
+
+.intro{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+#sub-intro{
+    display: block;
+    text-align: center;
+}
+.icn{
+    margin: 0px 12px 0px 12px;
+}
+.para{
+    text-align: justify;
+    width:70%;
+    margin: 0 auto;
+    background-color: #f7f8fa;
+    margin-bottom: 70px;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.9em;
+}
+.tally{
+    background-color:#316DC3 ;
+    color: white;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    height: 50vh;
+    text-align: center;
+   
+ 
+
+}
+.fnts>a>i{
+    list-style: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#poster{
+ 
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    background-color: #f7f8fa;
+   
+   
+}
+.poster{
+    width:350px;
+    height: 180px;
+    padding: 30px;
+    font-size: 12px;
+    color: #316DC3;
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+#poster2{
+    
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top:20px;
+    
+}
+#Project{
+    width: 100%;
+    text-align: left;
+    color: #316DC3 ;
+    margin-left: 0px;
+    margin-top: 150px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    font-family: 'Merriweather', serif;
+}
+.project1{
+  width: 50%;
+  padding-left: 30px;
+  
+}
+.project2{
+    
+    text-align: justify;
+    color: #316DC3 ;
+  }
+.pro1{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f7f8fa;
+    background-color: #f7f8fa;
+    width: 300px;
+    
+    
+}
+.pro2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery{
+    display: inline-flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: white;
+}
+.fnts1>a>i{
+    list-style: none;
+    margin-left: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: #316DC3 ;
+}
+.ft1{
+    color: gray;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 30px;
+    line-height: 2em;
+
+}
+.ft1>i{
+    color: green;
+}
+.footer{
+    background-color: #333333;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 130px;
+    height: 400px;
+}
+.ft2, .ft3{
+    padding-top: 30px;
+    color: white;
+    line-height: 0em;
+    margin-right: 130px;
+    font-family: 'Merriweather', serif;
+}
+.copy{
+    width: 100%;
+    background-color: #316DC3;
+    color: white;
+    height: 40px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+body{
+    background-color: #f7f8fa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    #header {
+      display: flex;
+      flex-direction: column;
+    }
+    @media screen and (max-width: 900px) {
+        .tally {
+         padding: 10px;
+          height: 200%;
+        }
+        @media screen and (max-width: 660px) {
+            .poster1 {
+              display: flex;
+              flex-direction: column;
+            }
+            @media screen and (max-width: 900px) {
+                #Project {
+                  display: flex;
+                  flex-direction: column;
+                  padding: 10px;
+                }
+				 @media screen and (max-width: 900px) {
+                nav>li{
+                  display: flex;
+                  flex-direction: column;
+                  padding: 10px;
+                }
+
+        
+                            @media screen and (max-width: 900px) {
+                                .project2 {
+                                 padding: 50px;
+                                  height: 200%;
+                                }
+                                @media screen and (max-width: 900px) {
+                                    .project1 {
+                                     padding-right: 50px;
+                                      height: 200%;
+                                    }
+									@media screen and (max-width: 900px) {
+                                    .ft3, .ft2 {
+                                     padding-right: 50px;
+                                      height: 200%;
+                                    }
